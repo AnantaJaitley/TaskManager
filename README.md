@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Task Manager Application
 
-## Getting Started
+A modern full-stack task management application with authentication, scalable backend architecture, and intelligent features. Built with performance, usability, and real-world production practices in mind.
 
-First, run the development server:
+---
+
+## 🎥 Demo
+
+👉 **Watch the demo here below:**
+[Click to view demo video]
+<video controls src="assets/Rec.mp4" title="Title">Task Manager CRUD App</video>
+
+---
+
+## ✨ Features
+
+* 🔐 Secure Authentication (JWT-based)
+* 📝 Create, Update, Delete Tasks (CRUD)
+* 📂 Organized Task Management
+* ⚡ Real-time UI Updates
+* 📱 Fully Responsive Design
+* 🤖 AI-powered enhancements *(if implemented)*
+* 🔄 Persistent state management (Zustand)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Shadcn UI
+
+### Backend
+
+* Node.js
+* Express.js
+
+### State Management
+
+* Zustand
+
+### Other Tools
+
+* Axios
+* JWT Authentication
+
+---
+
+## 🏗️ Architecture Overview
+
+* Component-based scalable frontend
+* RESTful backend APIs
+* JWT-based authentication system
+* Clean separation of concerns
+* Optimized for performance and maintainability
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Authentication
+#### Login
+![alt text](assets/image.png)
+---
+#### Register
+![alt text](assets/image2.png)
+### 🏠 Dashboard
+
+![alt text](assets/image3.png)
+
+---
+
+### 📝 Task Management
+
+#### CRUD functionality implementation:
+![alt text](assets/image4.png)
+
+#### Filter:
+![alt text](assets/image5.png)
+
+#### Search By Name:
+![alt text](assets/image6.png)
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AnantaJaitley/TaskManager.git
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔑 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env` file and add:
 
-## Learn More
+```env
+JWT_SECRET=your_secret_key
+API_URL=your_backend_url
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 🔔 Notifications system
+* 📊 Analytics dashboard
+* 🤝 Collaboration features
+* ☁️ Deployment (AWS / Vercel)
+* 🧠 Advanced AI integrations
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Project Highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Production-ready architecture
+* Clean and maintainable codebase
+* Scalable design patterns
+* Real-world full-stack implementation
+
+---
+
+## 👨‍💻 Author
+
+Developed by **AnantaJaitley**
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
