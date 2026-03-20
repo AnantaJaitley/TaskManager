@@ -8,7 +8,11 @@ A modern full-stack task management application with authentication, scalable ba
 
 👉 **Watch the demo here below:**
 [Click to view demo video]
-<video controls src="assets/Rec.mp4" title="Title">Task Manager CRUD App</video>
+
+
+https://github.com/user-attachments/assets/c7a0f99a-7ada-4ab6-a013-60b79f765f5c
+
+
 
 ---
 
